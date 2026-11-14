@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ha1v1suals",
+  "version": "${version}",
+  "name": "HA1v1suals",
+  "description": "Client-side visual customization for Minecraft.",
+  "authors": ["kurosangames2-max"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.ha1v1suals.client.HA1v1sualsClient"] },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
